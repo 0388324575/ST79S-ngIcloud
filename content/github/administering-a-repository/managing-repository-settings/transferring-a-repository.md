@@ -54,23 +54,4 @@ For more information, see "[Managing remote repositories](/github/getting-starte
 
 To transfer repositories to an organization, you must have repository creation permissions in the receiving organization. If organization owners have disabled repository creation by organization members, only organization owners can transfer repositories out of or into the organization.
 
-Once a repository is transferred to an organization, the organization's default repository permission settings and default membership privileges will apply to the transferred repository.
-
-## Transferring a repository owned by your user account
-
-You can transfer your repository to any user account that accepts your repository transfer. When a repository is transferred between two user accounts, the original repository owner and collaborators are automatically added as collaborators to the new repository.
-
-{% ifversion fpt %}If you published a {% data variables.product.prodname_pages %} site in a private repository and added a custom domain, before transferring the repository, you may want to remove or update your DNS records to avoid the risk of a domain takeover. For more information, see "[Managing a custom domain for your {% data variables.product.prodname_pages %} site](/articles/managing-a-custom-domain-for-your-github-pages-site)."{% endif %}
-
-{% data reusables.repositories.navigate-to-repo %}
-{% data reusables.repositories.sidebar-settings %}
-{% data reusables.repositories.transfer-repository-steps %}
-
-## Transferring a repository owned by your organization
-
-If you have owner permissions in an organization or admin permissions to one of its repositories, you can transfer a repository owned by your organization to your user account or to another organization.
-
-1. Sign into your user account that has admin or owner permissions in the organization that owns the repository.
-{% data reusables.repositories.navigate-to-repo %}
-{% data reusables.repositories.sidebar-settings %}
-{% data reusables.repositories.transfer-repository-steps %}
+Once a repository is transferred to an organization, the organization's default repository permission settings and default membership privileges will apply to the transferred 
